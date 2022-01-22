@@ -30,7 +30,7 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 
 ![image](https://user-images.githubusercontent.com/31528604/150624408-4d883ea0-17b6-4fa3-a8c0-93c6666004f1.png)
 
-## Edit Codes
+## Edit Codes -> crawel_citations.py
 
 ![image](https://user-images.githubusercontent.com/31528604/150624362-751dc5be-f364-4cde-a6cd-0e16b232884b.png)
 
@@ -45,6 +45,11 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 ```
 
 1. Change the Chrome Driver path to your own path
+
+  Un-comment this line to download the Chrome Driver
+
+![image](https://user-images.githubusercontent.com/31528604/150624537-148efc4e-2706-45d7-841a-efbd64ced139.png)
+
 2. Change the citation URL
 3. Change the number of citations your paper currently earned
 
