@@ -43,7 +43,7 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 
 ## Edit Codes -> crawel_citations.py
 
-![image](https://user-images.githubusercontent.com/31528604/150624362-751dc5be-f364-4cde-a6cd-0e16b232884b.png)
+![image](https://user-images.githubusercontent.com/31528604/150625221-63b14d61-7201-403b-8fbd-c2359493bcf3.png)
 
 ```python
   # The path of the Chrome Driver
