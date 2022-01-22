@@ -164,7 +164,7 @@ if __name__ == "__main__":
         os.mkdir(SAVE_PATH)
     
     # Start to download the papers from the Sci-hub
-    print('\n\n\n', 'Start to download papers from the Sci-hub!')
+    print('\n\n\n', '----------Start to download papers from the Sci-hub!----------')
     for paper_link in citation_paper_links:
         
         # identifier can be link URL, DOI, or PMID
