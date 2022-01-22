@@ -34,4 +34,18 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 
 ![image](https://user-images.githubusercontent.com/31528604/150624362-751dc5be-f364-4cde-a6cd-0e16b232884b.png)
 
+```python
+  # The path of the Chrome Driver
+  driver_path = '/Users/shuyuej/.wdm/drivers/chromedriver/mac64/96.0.4664.45/chromedriver'
+
+  # Citation Path
+  citation_url_start = 'https://scholar.google.com/scholar?start='
+  citation_url_end = '&hl=en&as_sdt=2005&sciodt=2006&cites=17910156571874886383&scipsc='
+  num_citation = 208
+```
+
+1. Change the Chrome Driver path to your own path
+2. Change the citation URL
+3. Change the number of citations your paper currently earned
+
 ## Enjoy!
