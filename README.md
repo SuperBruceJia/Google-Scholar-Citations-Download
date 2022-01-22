@@ -1,4 +1,4 @@
-# Google-Scholar-Citations-Download
+# Google Scholar Citation Papers Download
 # via Python selenium and Sci-Hub
 These scripts aim to download all the citation papers for your one paper
 
