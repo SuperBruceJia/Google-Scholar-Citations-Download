@@ -128,6 +128,7 @@ if __name__ == "__main__":
     citation_url_start = 'https://scholar.google.com/scholar?start='
     citation_url_end = '&hl=en&as_sdt=2005&sciodt=2006&cites=17910156571874886383&scipsc='
     num_citation = 208
+    
     num_pages = int(num_citation / 10) + 1
     
     # Iterate each pages and get the contents
@@ -152,8 +153,8 @@ if __name__ == "__main__":
     citation_paper_titles = np.reshape(np.array(citation_paper_titles), [-1, 1])
     citation_paper_links = np.reshape(np.array(citation_paper_links), [-1, 1])
     
-    print('citation_paper_titles: ', np.shape(citation_paper_titles))
-    print('citation_paper_links: ', np.shape(citation_paper_links))
+#   print('citation_paper_titles: ', np.shape(citation_paper_titles))
+#   print('citation_paper_links: ', np.shape(citation_paper_links))
     
     # Download all the papers via Sci-Hub 
     sh = SciHub()
