@@ -60,4 +60,8 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 2. Change the citation URL
 3. Change the number of citations your paper currently earned
 
+## You can see that the papers are crawled.
+
+![image](https://user-images.githubusercontent.com/31528604/150624805-31c31b61-a5ee-46b0-98fe-2779909b56be.png)
+
 ## Enjoy!
