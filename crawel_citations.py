@@ -150,9 +150,8 @@ if __name__ == "__main__":
         for i in links:
             citation_paper_links.append(i)
     
-    citation_paper_titles = np.reshape(np.array(citation_paper_titles), [-1, 1])
-    citation_paper_links = np.reshape(np.array(citation_paper_links), [-1, 1])
-    
+#   citation_paper_titles = np.reshape(np.array(citation_paper_titles), [-1, 1])
+#   citation_paper_links = np.reshape(np.array(citation_paper_links), [-1, 1])
 #   print('citation_paper_titles: ', np.shape(citation_paper_titles))
 #   print('citation_paper_links: ', np.shape(citation_paper_links))
     
@@ -163,15 +162,22 @@ if __name__ == "__main__":
     SAVE_PATH = './Downloaded_Citations/'
     if not os.path.exists(SAVE_PATH):
         os.mkdir(SAVE_PATH)
-        
+    
+    # Start to download the papers from the Sci-hub
+    print('\n\n\n', 'Start to download papers from the Sci-hub!')
     for paper_link in citation_paper_links:
+        
         # identifier can be link URL, DOI, or PMID
         identifier = str(paper_link)
         
-        # PDF Saved Path - You should change this to your own path
-        sh.download(identifier=identifier, path=SAVE_PATH)
-        print('\n')
-    
+        try:
+            print('\nTry to download this paper: ', identifier)
+            
+            # PDF Saved Path - You should change this to your own path
+            sh.download(identifier=identifier, path=SAVE_PATH)
+        except:
+            print('Sorry, this paper is unavailable on Sci-Hub!\n')
+            
     driver.close()
     driver.quit()
     
