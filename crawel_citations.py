@@ -113,10 +113,10 @@ def get_paper_link(contents):
                 link_end = href_cont.find('data-clk') - len('" ')
                 paper_link = href_cont[link_start:link_end]
                 
-                if paper_link != last_paper_link and 'abstract' not in paper_link and paper_link not in last_paper_link and '/abs/' not in paper_link:
-                    last_paper_link = str(paper_link) 
-                    links.append(paper_link)
-                    print(paper_link)
+                # if paper_link != last_paper_link and 'abstract' not in paper_link and paper_link not in last_paper_link and '/abs/' not in paper_link:
+                last_paper_link = str(paper_link) 
+                links.append(paper_link)
+                print(paper_link)
                 
         temp_index += 1
             
