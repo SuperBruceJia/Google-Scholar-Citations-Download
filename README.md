@@ -70,4 +70,8 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 
 ***NOTICE3:*** Although some paper links are overlapped, **it's okay as all the citation papers are downloaded**, if they are available at Sci-Hub.
 
+## Change the Google Account if u encounter this:
+
+![image](https://user-images.githubusercontent.com/31528604/150625157-8e0b0d26-e50e-429e-b927-a0a9535db2ae.png)
+
 ## Enjoy!
