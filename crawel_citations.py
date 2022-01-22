@@ -39,6 +39,7 @@ def read_url(url, driver_path, page):
     option = webdriver.ChromeOptions()
     option.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
     
+    # driver_path = ChromeDriverManager().install()
     driver = webdriver.Chrome(driver_path, options=option)
     
     driver.get(url)
