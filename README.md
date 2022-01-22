@@ -68,4 +68,6 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 
 ![image](https://user-images.githubusercontent.com/31528604/150624805-31c31b61-a5ee-46b0-98fe-2779909b56be.png)
 
+***NOTICE3:*** Although some paper links are overlapped, it's okay as all the citation papers are downloaded, if they are available at Sci-Hub.
+
 ## Enjoy!
