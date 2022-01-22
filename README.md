@@ -9,7 +9,7 @@ These scripts aim to download all the citation papers for your one paper
 
 ***NOTICE2:*** You may still need to check the reCAPTCHA **for the first time**!
 
-![image](https://user-images.githubusercontent.com/31528604/150624881-d1451505-0d14-4a1f-8cdd-ee741f1c159a.png)
+![image](https://user-images.githubusercontent.com/31528604/150625091-a5207ded-65ab-4494-bf9e-af3cb2b17b3f.png)
 
 Un-comment this line at first to check the reCAPTCHA, and then comment it.
 
