@@ -75,4 +75,7 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 
 ![image](https://user-images.githubusercontent.com/31528604/150625157-8e0b0d26-e50e-429e-b927-a0a9535db2ae.png)
 
-## Enjoy!
+## References
+
+[Google Scholar Public API](https://serpapi.com/google-scholar-api)
+ 
