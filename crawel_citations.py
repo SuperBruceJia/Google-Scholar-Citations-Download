@@ -43,7 +43,8 @@ def read_url(url, driver_path, page):
     driver = webdriver.Chrome(driver_path, options=option)
     
     driver.get(url)
-#   input('input anything\n')
+    
+    # input('input anything\n')
     contents = driver.page_source
     
     end_time = time.time()
@@ -100,26 +101,20 @@ def get_paper_link(contents):
     
     # Iterate to get all the paper links
     last_paper_link = ''
-    temp_index = 1
     
     while href in href_cont:
         href_loc = href_cont.find(href) + len(href)
         href_cont = href_cont[href_loc:]
         
-        if temp_index % 2 != 0:
-            if href_cont[:5] == '"http' and href_cont[:15] != '"http://gateway' and href_cont[:16] != '"https://scholar' and href_cont[:15] != '"http://scholar':
+        if href_cont[:5] == '"http' and href_cont[:15] != '"http://gateway' and href_cont[:16] != '"https://scholar' and href_cont[:15] != '"http://scholar':
+            link_start = href_cont.find('"') + len('"')
+            link_end = href_cont.find('data-clk') - len('" ')
+            paper_link = href_cont[link_start:link_end]
             
-                link_start = href_cont.find('"') + len('"')
-                link_end = href_cont.find('data-clk') - len('" ')
-                paper_link = href_cont[link_start:link_end]
-                
-                # if paper_link != last_paper_link and 'abstract' not in paper_link and paper_link not in last_paper_link and '/abs/' not in paper_link:
+            if paper_link != last_paper_link and 'abstract' not in paper_link and paper_link not in last_paper_link and '/abs/' not in paper_link:
                 last_paper_link = str(paper_link) 
                 links.append(paper_link)
                 print(paper_link)
-                
-        temp_index += 1
-            
                 
     return links
 
@@ -157,8 +152,8 @@ if __name__ == "__main__":
     citation_paper_titles = np.reshape(np.array(citation_paper_titles), [-1, 1])
     citation_paper_links = np.reshape(np.array(citation_paper_links), [-1, 1])
     
-#   print('citation_paper_titles: ', np.shape(citation_paper_titles))
-#   print('citation_paper_links: ', np.shape(citation_paper_links))
+    print('citation_paper_titles: ', np.shape(citation_paper_titles))
+    print('citation_paper_links: ', np.shape(citation_paper_links))
     
     # Download all the papers via Sci-Hub 
     sh = SciHub()
