@@ -7,7 +7,7 @@ These scripts aim to download all the citation papers for your one paper
 
 ![image](https://user-images.githubusercontent.com/31528604/150624865-2d55c329-9518-4425-8229-6380a51e0be0.png)
 
-***NOTICE2:*** You may still need to check the reCAPTCHA for the first time!
+***NOTICE2:*** You may still need to check the reCAPTCHA **for the first time**!
 
 ![image](https://user-images.githubusercontent.com/31528604/150624881-d1451505-0d14-4a1f-8cdd-ee741f1c159a.png)
 
@@ -68,6 +68,6 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 
 ![image](https://user-images.githubusercontent.com/31528604/150624805-31c31b61-a5ee-46b0-98fe-2779909b56be.png)
 
-***NOTICE3:*** Although some paper links are overlapped, it's okay as all the citation papers are downloaded, if they are available at Sci-Hub.
+***NOTICE3:*** Although some paper links are overlapped, **it's okay as all the citation papers are downloaded**, if they are available at Sci-Hub.
 
 ## Enjoy!
