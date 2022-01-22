@@ -5,9 +5,13 @@ These scripts aim to download all the citation papers for your one paper
 
 ***NOTICE1:*** Due to the reCAPTCHA (Robot Check <- If you are a human) of Google Scholar backend, to avoid the CAPTCHA, we have to log in our Google Account first and then crawl the citation papers' links and titles.
 
-![image](https://user-images.githubusercontent.com/31528604/150624687-a04411ff-ca41-4331-ac36-ed0f2a4add73.png)
+![image](https://user-images.githubusercontent.com/31528604/150624865-2d55c329-9518-4425-8229-6380a51e0be0.png)
 
 ***NOTICE2:*** You may still need to check the reCAPTCHA for the first time!
+
+![image](https://user-images.githubusercontent.com/31528604/150624881-d1451505-0d14-4a1f-8cdd-ee741f1c159a.png)
+
+Un-comment this line at first to check the reCAPTCHA, and then comment it.
 
 ## Open Terminal and cd to the Google Chrome directory
 
