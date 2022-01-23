@@ -1,5 +1,5 @@
-# Google Scholar Citation Papers Download
-# via Python selenium and Sci-Hub
+# Google Scholar Citation Papers Download via Python selenium and Sci-Hub
+
 These scripts aim to download all the citation papers for your one paper
 
 # Tutorial on the macOS
@@ -70,6 +70,10 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 ![image](https://user-images.githubusercontent.com/31528604/150624805-31c31b61-a5ee-46b0-98fe-2779909b56be.png)
 
 ***NOTICE3:*** Although some paper links are overlapped, **it's okay as all the citation papers are downloaded**, if they are available at Sci-Hub.
+
+## Print the paper title with its webpage link -> citation_title_with_link.py
+
+![image](https://user-images.githubusercontent.com/31528604/150660606-0df033d5-74c5-41d1-bf5c-8e21616807bc.png)
 
 ## Change the Google Account if u encounter this:
 
