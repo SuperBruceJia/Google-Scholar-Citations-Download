@@ -1,6 +1,6 @@
-# Google Scholar Citation Papers Download via Python selenium and Sci-Hub
+# Download Google Scholar Citation Papers
 
-These scripts aim to download all the citation papers for your one paper
+These scripts aim to download all the citation papers of one paper via selenium and Sci-Hub
 
 # Tutorial on the macOS
 
@@ -82,4 +82,3 @@ $ ./Google\ Chrome --remote-debugging-port=9222 --user-data-dir="~/ChromeProfile
 ## References
 
 [Google Scholar Public API](https://serpapi.com/google-scholar-api)
- 
